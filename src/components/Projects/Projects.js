@@ -31,7 +31,7 @@ function Projects() {
               imgPath={onestop}
               isBlog={false}
               title="OneStop"
-              description="It is student-centric mobile application, assisting in daily challenges and enhancing essential utilities at IIT Guwahati. App features include Academic Timetable, Lost/Found & Buy/Sell, Cab Sharing, Bus/Ferry Timings, Contacts and more."
+              description="A mobile application with 10000+ downloads, assisting in daily challenges and enhancing essential utilities at IIT Guwahati. App features include Academic Timetable, Lost/Found & Buy/Sell, Cab Sharing, Bus/Ferry Timings, Contacts and more."
               ghLink="https://github.com/swciitg/onestop_flutter"
               demoLink="https://bit.ly/onestop-play"
             />

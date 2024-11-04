@@ -4,7 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -16,25 +15,30 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              A BIT <span className="purple"> ABOUT </span> ME
             </h1>
             <p className="home-about-body">
+              I am currently working as Software Engineer 1 at <b className="purple">Sortly </b>.
+              <br />
+              <br />
               I love programming and like to play with new stuff 🤺
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> C++, Javascript, Python, Dart. </b>
+                <b className="purple"> C++, Javascript, Typescript, Python, Dart. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are &nbsp;
-              <i>
-                <b className="purple">Web and App Development </b> and explore realms of {" "}
-                <b className="purple">
-                  Devops.
-                </b>
-              </i>
-              <br />
+              My past work experience: &nbsp;
+              <li>
+                <b className="purple">Founding Software Engineer </b> at Alphaherd Veterinary Pvt Ltd.
+              </li>
+              <li>
+                <b className="purple">Software Engineer Intern </b> at I'mBesideYou Inc Japan.
+              </li>
+              <li>
+                <b className="purple">Flutter Developer </b> at Evy Energy Pvt Ltd.
+              </li>
               <br />
               I love to collaborate on ideas and build awesome projects 💻
             </p>
@@ -47,9 +51,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>WOULD LOVE TO CONNECT WITH AWESOME PEOPLE LIKE YOU 🌟</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">checkout </span>below links
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

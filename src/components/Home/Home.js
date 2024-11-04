@@ -21,16 +21,25 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                I'M
+                I'm
                 <strong className="main-name">  Kunal Pal</strong>
+                . A Passionate Engineer.
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <h1 className="heading-name">
+                I love to explore things in tech.
+              </h1>
+
+              <h1 className="heading-name">
+                I change titles based on work 😛 :
+              </h1>
+
+              <div style={{ padding: 50, paddingTop: 20, paddingBottom: 20, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5}>
               <img
                 src={homeLogo}
                 alt="home pic"
